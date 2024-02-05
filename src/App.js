@@ -8,7 +8,7 @@ function App() {
     setNum(num + 1);
   }
 
-  const onBtnDownClicked = () => {
+  const onBtnDecreaseClicked = () => {
     setNum(num - 1);
   }
 
@@ -17,7 +17,7 @@ function App() {
       NUM :{num}
       <br/>
       <button onClick={onBtnIncreaseClicked}>+1</button> 
-      <button onClick={onBtnDownClicked}>-1</button>
+      <button onClick={onBtnDecreaseClicked}>-1</button>
       <button onClick={() => setNum(num + 10)}>+10</button>
       <button onClick={() => setNum(num - 10)}>-10</button>
     </>
